@@ -1,3 +1,3 @@
-public interface FormatCsvInterface {
-    public String formatToCsv();
+public interface FormatCsvInterface<T> {
+    public String formatToCsv(T item);
 }

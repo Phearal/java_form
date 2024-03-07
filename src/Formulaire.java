@@ -1,4 +1,4 @@
-public class Formulaire {
+public class Formulaire implements FormulaireInterface {
     private String email;
 
     public Formulaire(String email) {

@@ -1,4 +1,4 @@
-public class Contact extends Formulaire {
+public class Contact extends Formulaire implements ContactInterface {
     private String objet;
     private String message;
 

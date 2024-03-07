@@ -1,3 +1,3 @@
-public interface FormatHtmlInterface {
-    public String formatToHtml();
+public interface FormatHtmlInterface<T> {
+    public String formatToHtml(T item);
 }
